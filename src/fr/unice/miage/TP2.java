@@ -78,8 +78,8 @@ public class TP2 {
 
     public static void afficheMethodes(Class cl) {
         System.out.println("// Méthodes");
-        for(int i = 0; i < cl.getMethods().length ; i++){
-            System.out.println(cl.getMethods()[i]);
+        for(int i = 0; i < cl.getDeclaredMethods().length ; i++){
+            System.out.println(cl.getDeclaredMethods()[i]);
         }
     }
 
